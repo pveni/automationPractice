@@ -18,7 +18,7 @@ you can find the path here //src/main/java/Configuration/Page
 TestRun: Used TestNG for running tests. You can find //testng.xml where all the tests are included in one suite.
 
 Test Report: Once we run the test suite or individual test you can see the reports here //test-output/Automation Practice Test Suite with html format
-If test case fails the image is captured here //test-output/failedScreenshots .
+If test case fails the image is captured here //test-output/failedScreenshots.
 
 
 

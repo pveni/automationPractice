@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Automation Practice Test Suite]">
+  <test name="Test Cases(failed)">
+    <classes>
+      <class name="tests.CaptureImageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testToCaptureFailedScreenshot"/>
+          <include name="setup"/>
+          <include name="closeSetup"/>
+        </methods>
+      </class> <!-- tests.CaptureImageTest -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Practice Test Suite] -->

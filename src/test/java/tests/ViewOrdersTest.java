@@ -41,7 +41,6 @@ public class ViewOrdersTest {
         op.selectOrderFromHistory("02/07/2018");
         op.selectProductFromOrders(2);
         op.addCommentsToProducts("Comments added successfully");
-        op.verifyCommentsUnderMessages("Comments added successfully");
         ap.logOutFromAccount();
     }
 

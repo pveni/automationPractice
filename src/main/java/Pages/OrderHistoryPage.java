@@ -97,18 +97,4 @@ public class OrderHistoryPage extends Page {
             throw new Exception("Message cannot be added");
         }
     }
-
-    public void verifyCommentsUnderMessages(String text) throws Throwable{
-            try{
-
-            WebElement comment = driver.findElement(By.xpath("//td[contains(text(),'"+text+"')]/preceding-sibling::td/parent::tr/parent::tbody/preceding-sibling::thead//th[@class='last_item']"));
-//           ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", comment);
-           assertTrue(getElement(comment,10).isDisplayed(),"Comments added successfully");
-        }
-        catch (Throwable throwable) {
-            throw new Exception("Message cannot be verified");
-        }
-    }
-
-
 }

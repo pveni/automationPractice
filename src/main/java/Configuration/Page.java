@@ -24,7 +24,8 @@ public class Page {
 //        driver=new ChromeDriver();
         DesiredCapabilities ca = DesiredCapabilities.firefox();
         ca.setCapability("marionette", false);
-        System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\geckodriver.exe");
+//        System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
